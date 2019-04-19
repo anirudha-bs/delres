@@ -8,6 +8,8 @@ by the application
 
 Installation-
 
+Download delres
+
 Unzip delres
 
 Run install.sh as root
