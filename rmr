@@ -1,0 +1,10 @@
+#!/bin/sh
+
+pwd > ~/.local/share/Trash/log/$1.log
+mv $1 ~/.local/share/Trash/files
+if [ $? -eq 0 ]
+then
+echo "Deleted"
+else
+echo "Error"
+fi
