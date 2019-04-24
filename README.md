@@ -1,16 +1,16 @@
 # dleres
 
-This is an application to delete and restore files in CLI 
+This is an application to delete and restore files in CLI in any UNIX system
 
-Instead of using conventional rm command to delete files which cannot be restored, We can use these custom commands provided
-by the application
+Instead of using conventional rm command to delete files wherein they cannot be restored there after, We can use these custom commands provided
+by the application where the files will be transfered to local trash and can be restored when required
 
 
 Installation-
 
-Download delres
+Download delres.zip
 
-Unzip delres
+Unzip delres.zip
 
 Run install.sh as root
 
