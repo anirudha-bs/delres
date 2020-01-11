@@ -1,5 +1,6 @@
 #!/bin/sh
 
+pd=$(pwd)
 cd ~/.local/share/Trash/log
 loc=$(cat $1.log)
 cd ~/.local/share/Trash/files
@@ -11,4 +12,4 @@ rm ~/.local/share/Trash/log/$1.log
 else
 echo "Error"
 fi
-cd $loc
+cd $pd
