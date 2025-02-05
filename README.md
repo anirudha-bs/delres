@@ -1,4 +1,4 @@
-# dleres
+# delres
 
 This is an command line tool to delete and restore files in any UNIX environment.
 
